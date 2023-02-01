@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 50px;      
+    justify-content: space-between;
+    display: flex;
+}
+
+img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+button {
+    border-color: white;
+    background-color: white;
+    border-style: none;
+    cursor: pointer;    
+    border-bottom: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;    
+}
+
+button img {
+    width: 60px;    
+    margin-right: 150px;
+}
+
