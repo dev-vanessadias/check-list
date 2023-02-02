@@ -11,14 +11,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./js/main.js" defer></script>
 </head>
-<header>
-    <img src="./img/logotodo.PNG">  
-    <button>
-        <img src="./img/profile-user.png">
-    </button>  
-            
-</header>
 <body>
-    
+    <header>
+        <img src="./img/logotodo.PNG">  
+        <button>
+            <img src="./img/profile-user.png">
+        </button>              
+    </header>
+    <div class="container-principal">
+        <form id="formulario">
+            <p>Adicionar atividade</p>
+            <div class="formulario-controle">
+                <input type="text" id="input-atividade" placeholder="o que você vai fazer?" required>
+                <button type="submit"><img id="icone-adicionar"  src="./img/addicon.png"></button>
+            </div>
+            <p>Editar atividade</p>
+            <div class="formulario-controle">
+                <input type="text" id="input-editar" placeholder="Editar" required>
+                <button type="submit"><img id="icone-editar"  src="./img/editicon.png"></button>
+            </div>
+            <button>Cancelar</button>
+        </form>
+        <div id="toolbar">
+            <div id="search">
+                <h4>Pesquisar atividade:</h4>
+                <form>
+                    <input type="text" id="pesquisa" placeholder="Pesquisar">
+                    <button id="botao-pesquisar">
+                        <img id="icone-deletar" src="./img/deleteicon.png">
+                    </button>
+                </form>
+            </div>
+            <div id="fitro">
+                <h4>Filtrar</h4>
+                <select id="filtro-select">
+                    <option value="all">Todos</option>
+                    <option value="done">Realizados</option>
+                    <option value="all">A realizar</option>
+                </select>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
