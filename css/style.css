@@ -4,19 +4,31 @@
     box-sizing: border-box;
 }
 
+.container-principal {
+    background-color: rgb(24, 150, 24);
+}
 
 #icone-adicionar {
     width: 25px;
+    background-color: rgb(24, 150, 24);
+    margin: 0;
+
 }
 
 #icone-editar {
     width: 28px;
+    background-color: rgb(24, 150, 24);
+    margin: 0;
 }
 
 #icone-deletar {
     width: 28px;
+    background-color: rgb(24, 150, 24);
+    margin: 0;
 }
 
 #icone-incluir {
     width: 25px;
+    background-color: rgb(24, 150, 24);
+    margin: 0;
 }
