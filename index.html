@@ -19,18 +19,20 @@
         </button>              
     </header>
     <div class="container-principal">
-        <form id="formulario">
+        <form id="add-ativ">
             <p>Adicionar atividade</p>
             <div class="formulario-controle">
                 <input type="text" id="input-atividade" placeholder="o que você vai fazer?">
                 <button type="submit"><img id="icone-adicionar"  src="./img/addicon.png"></button>
             </div>
+        </form>     
+        <form id="edit-form" class="">
             <p>Editar atividade</p>
             <div class="formulario-controle">
                 <input type="text" id="input-editar" placeholder="Editar" >
                 <button type="submit"><img id="icone-editar"  src="./img/editicon.png"></button>
             </div>
-            <button>Cancelar</button>
+            <button id="cancel-edit-btn">Cancelar</button>            
         </form>
         <div id="toolbar">
             <div id="search">
@@ -55,28 +57,27 @@
             <div class="todo">
                 <h3>Estou fazendo alguma coisa...</h3>
                 <button class="finish-todo">
-                    <i class="fa-solid fa-check"></i>
+                    <img id="icone-adicionar"  src="./img/addicon.png">
                 </button>
                 <button class="edit-todo">
-                    <i class="fa-solid fa-pen"></i>
+                    <img id="icone-editar"  src="./img/editicon.png">
                 </button>
                 <button class="remove-todo">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
+                    <img id="icone-deletar" src="./img/deleteicon.png">
+                </button>    
             </div>
             <div class="todo">
                 <h3>Estou estudando JS..</h3>
                 <button class="finish-todo">
-                    <i class="fa-solid fa-check"></i>
+                    <img id="icone-adicionar"  src="./img/addicon.png">
                 </button>
                 <button class="edit-todo">
-                    <i class="fa-solid fa-pen"></i>
+                    <img id="icone-editar"  src="./img/editicon.png">
                 </button>
                 <button class="remove-todo">
-                    <i class="fa-solid fa-xmark"></i>
+                    <img id="icone-deletar" src="./img/deleteicon.png">
                 </button>
             </div>
-
         </div>
     </div>    
 </body>

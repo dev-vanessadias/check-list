@@ -16,12 +16,11 @@ img {
     margin-left: 100px;
 }
 
-button {
-    border-color: white;
+button {   
     background-color: white;
     border-style: none;
     cursor: pointer;    
-    border-bottom: none;
+    border-bottom: none;  
 }
 
 button:hover {
@@ -33,4 +32,6 @@ button img {
     width: 60px;    
     margin-right: 150px;
 }
+
+
 

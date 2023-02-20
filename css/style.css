@@ -6,13 +6,38 @@
 
 .container-principal {
     background-color: rgb(24, 150, 24);
+    padding: 1.5rem;
+    max-width: 450px;
+    margin: 3rem auto;
+    border-radius: 10px;
+    margin-top: 150px;
+    text-align-last: center;
+    padding: 1 1rem 1rem;
+    border-bottom: 1px solid;
+    
+}
+
+.container-principal button {
+    border: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+select {
+    padding: 0.25rem 0.5rem;
+}
+
+.hide {
+    display: none;
 }
 
 #icone-adicionar {
     width: 25px;
     background-color: rgb(24, 150, 24);
     margin: 0;
-
 }
 
 #icone-editar {
@@ -31,4 +56,29 @@
     width: 25px;
     background-color: rgb(24, 150, 24);
     margin: 0;
+}
+
+#add-ativ, 
+#edit-form {
+    padding: 1rem;
+    border-bottom: 1px;
+}
+
+#add-ativ p, 
+#edit-form  p{
+    margin-bottom: 0.5rem;
+    font-weight: bold;  
+}
+
+.formulario-controle {
+    display: flex;
+}
+
+.formulario-controle input {
+    margin-right: 0.3rem;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+
 }
