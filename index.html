@@ -19,17 +19,17 @@
         </button>              
     </header>
     <div class="container-principal">
-        <form id="add-ativ">
+        <form id="todo-form">
             <p>Adicionar atividade</p>
             <div class="formulario-controle">
-                <input type="text" id="input-atividade" placeholder="o que você vai fazer?">
+                <input type="text" id="todo-input" placeholder="o que você vai fazer?">
                 <button type="submit"><img id="icone-adicionar"  src="./img/addicon.png"></button>
             </div>
         </form>     
-        <form id="edit-form" class="">
+        <form id="edit-form" class="hide">
             <p>Editar atividade</p>
             <div class="formulario-controle">
-                <input type="text" id="input-editar" placeholder="Editar" >
+                <input type="text" id="edit-input" placeholder="Editar" >
                 <button type="submit"><img id="icone-editar"  src="./img/editicon.png"></button>
             </div>
             <button id="cancel-edit-btn">Cancelar</button>            
@@ -66,7 +66,7 @@
                     <img id="icone-deletar" src="./img/deleteicon.png">
                 </button>    
             </div>
-            <div class="todo">
+            <div class="todo done">
                 <h3>Estou estudando JS..</h3>
                 <button class="finish-todo">
                     <img id="icone-adicionar"  src="./img/addicon.png">
