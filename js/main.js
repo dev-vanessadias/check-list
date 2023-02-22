@@ -36,8 +36,6 @@ const saveTodo = (text) => {
 
     todoInput.value = "";
     todoInput.focus();
-
-
 };
 
 //Eventos
@@ -48,5 +46,14 @@ todoForm.addEventListener("submit", (e) => {
 
     if(inputValue) {
         saveTodo(inputValue);
+    }
+});
+
+document.addEventListener("click", (e) => {
+    const targetEl = e.target;
+    const parentEl = targetEl.closest("div");
+
+    if (targetEl.classList.contains("finish-todo")) {
+        parentEl.classList.add("done");
     }
 });
