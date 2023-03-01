@@ -50,6 +50,12 @@ select {
     margin: 0;
 }
 
+#icone-buscar {
+    width: 28px;
+    background-color: rgb(24, 150, 24);
+    margin: 0;
+}
+
 #icone-deletar {
     width: 28px;
     background-color: rgb(24, 150, 24);
@@ -120,8 +126,7 @@ select {
 }
 
 #filter {
-    width: 35%;
-    
+    width: 35%;    
     flex-direction: column;
 }
 
