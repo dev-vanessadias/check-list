@@ -61,3 +61,5 @@ document.addEventListener("click", (e) => {
         parentEl.remove();
     }
 });
+
+/// so pro git
