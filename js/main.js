@@ -60,6 +60,9 @@ document.addEventListener("click", (e) => {
     if (targetEl.classList.contains("remove-todo")) {
         parentEl.remove();
     }
+
+    if (targetEl.classList.contains("edit-todo")) {
+        console.log("editou");
+    }
 });
 
-/// so pro git

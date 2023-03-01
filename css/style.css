@@ -35,7 +35,7 @@ select {
 }
 
 #icone-adicionar {
-    width: 25px;
+    width: 31px;
     background-color: rgb(24, 150, 24);
     margin: 0;
 }
@@ -56,6 +56,10 @@ select {
     width: 25px;
     background-color: rgb(24, 150, 24);
     margin: 0;
+}
+
+.container-principal input {
+    display: inline;
 }
 
 #add-ativ, 
@@ -86,15 +90,15 @@ select {
 #toolbar {
     padding: 1rem;
     border-bottom: 1px solid;
-    display: flex;
+    
 }
 
 #toolbar h4 {
     margin-bottom: 0.5rem ;
+    margin-top: 30px;
 }
 
 #search {
-    border-right: 1px solid;
     padding-right: 1rem;
     margin-right: 1rem;
     width: 65%;
@@ -140,7 +144,7 @@ select {
 }
 
 .done {
-    background-color:
+    background-color: rgb(152, 141, 141);
 }
 
 .done h3 {
@@ -148,3 +152,4 @@ select {
     text-decoration: line-through;
     font-style: italic;
 }
+
