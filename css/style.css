@@ -5,16 +5,16 @@
 }
 
 .container-principal {
-    background-color: rgb(24, 150, 24);
-    padding: 1.5rem;
+    background-color: rgb(24, 150, 24);   
     max-width: 450px;
-    margin: 3rem auto;
     border-radius: 10px;
     margin-top: 100px;
-    text-align-last: center;
-    padding: 1 1rem 1rem;
+    text-align-last: center;   
     border-bottom: 1px solid;
-    
+    display: inline-block;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 30px;
 }
 
 .container-principal button {
@@ -23,6 +23,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-principal input {
+    display: block;
 }
 
 input,
@@ -58,20 +62,22 @@ select {
     margin: 0;
 }
 
-.container-principal input {
-    display: inline;
-}
+
 
 #add-ativ, 
-#edit-form {
-    padding: 1rem;
+#edit-form,
+#toolbar {
+    padding-left: 30px;
     border-bottom: 1px;
+    margin: 30px;
 }
 
 #add-ativ p, 
-#edit-form  p{
+#edit-form  p,
+#toolbar p {
     margin-bottom: 0.5rem;
     font-weight: bold;  
+    text-align: center;
 }
 
 .formulario-controle {
@@ -99,11 +105,9 @@ select {
 }
 
 #search {
-    padding-right: 1rem;
-    margin-right: 1rem;
     width: 65%;
-    display: flex;
-    flex-direction: column;
+    align-items: center; 
+    
 }
 
 #search form {
@@ -117,7 +121,7 @@ select {
 
 #filter {
     width: 35%;
-    display: flex;
+    
     flex-direction: column;
 }
 
