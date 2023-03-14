@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="icon" href="./img/logocheck.PNG">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
     <script src="./js/main.js" defer></script>
 </head>
 <body>
@@ -18,71 +23,23 @@
             <img src="./img/profile-user.png">
         </button>              
     </header>
-    <div class="container-principal">
-        <form id="add-ativ">
-            <p>Adicionar atividade</p>
-            <div class="formulario-controle">
-                <input type="text" id="todo-input" placeholder="O que você vai fazer?">
-                <button type="submit">
-                    <img id="icone-adicionar"  src="./img/addicon.png">
-                </button>
-            </div>
-        </form>     
-        <form id="edit-form" class="hide">
-            <p>Editar atividade</p>
-            <div class="formulario-controle">
-                <input type="text" id="edit-input" placeholder="Editar" >
-                <button type="submit">
-                    <img id="icone-editar"  src="./img/editicon.png">
-                </button>
-            </div>
-            <button id="cancel-edit-btn">Cancelar</button>            
-        </form>
-        <div id="toolbar">
-            <div id="search">
-                <p>Pesquisar atividade</p>
-                <form>
-                    <input type="text" id="pesquisa" placeholder="Pesquisar">
-                    <button id="botao-pesquisar">
-                        <img id="icone-buscar" src="./img/search.png">
-                    </button>
-                </form>
-            </div>
-            <div id="filter">
-                <h4>Filtrar</h4>
-                <select id="filter-select">
-                    <option value="all">Todos</option>
-                    <option value="done">Realizados</option>
-                    <option value="all">A realizar</option>
-                </select>
-            </div>
+    <form id="todo-form">
+        <p>Adicione a sua tarefa:</p>
+        <div class="form-control">
+            <input type="text" id="todo-input" placeholder="O que você vai fazer?">
+            <button type="submit">
+                <i class="fa-thin fa-plus"></i>
+            </button>
         </div>
-        <div id="todo-list">
-            <div class="todo">
-                <h3>Estou fazendo alguma coisa...</h3>
-                <button class="finish-todo">
-                    <img id="icone-adicionar"  src="./img/done.png">
-                </button>
-                <button class="edit-todo">
-                    <img id="icone-editar"  src="./img/editicon.png">
-                </button>
-                <button class="remove-todo">
-                    <img id="icone-deletar" src="./img/deleteicon.png">
-                </button>    
-            </div>
-            <div class="todo done">
-                <h3>Estou estudando JS..</h3>
-                <button class="finish-todo">
-                    <img id="icone-adicionar"  src="./img/done.png">
-                </button>
-                <button class="edit-todo">
-                    <img id="icone-editar"  src="./img/editicon.png">
-                </button>
-                <button class="remove-todo">
-                    <img id="icone-deletar" src="./img/deleteicon.png">
-                </button>
-            </div>
+    </form>   
+    <form id="edit-form">
+        <p>Edite a sua tarefa:</p>
+        <div class="form-control">
+            <input type="text" id="edit-input" />
+            <button type="submit">
+                <i class="fa-solid fa-check-double"></i>
+            </button>
         </div>
-    </div>    
+    </form>    
 </body>
 </html>

@@ -81,7 +81,7 @@ select {
 #toolbar p {
     margin-bottom: 0.5rem;
     font-weight: bold;  
-    text-align: center;
+    text-align: left;
 }
 
 .formulario-controle {
@@ -95,12 +95,6 @@ select {
 
 #cancel-edit-btn {
     margin-top: 1rem;
-}
-
-#toolbar {
-    padding: 1rem;
-    border-bottom: 1px solid;
-    
 }
 
 #toolbar h4 {
